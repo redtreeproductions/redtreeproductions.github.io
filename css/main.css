@@ -1,0 +1,38 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html, body {
+  height:100%;
+}
+
+.jumbotron {
+  background:url(../img/redtree.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.fill {
+  height:100%;
+}
+
+.navbar {
+  margin-bottom:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
