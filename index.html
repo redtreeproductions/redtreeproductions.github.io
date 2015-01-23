@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -32,7 +33,7 @@
   <div class="navbar-collapse collapse navbar-inverse-collapse">
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars fa-lg"></i></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars fa-2x"></i></a>
         <ul class="dropdown-menu">
           <li><a href="#">Action</a></li>
           <li><a href="#">Another action</a></li>
@@ -46,11 +47,20 @@
 </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
+    <video autoplay loop poster="img/redtree.png" id="bgvid">
+      <source src="img/background-video.webm" type="video/webm">
+      <source src="img/background-video.mp4" type="video/mp4">
+    </video>
+
+    <div id="darkeffect"></div>
+
     <div class="jumbotron fill">
-      <div class="container text-right">
-        <h1>Making cool things happen.</h1>
-        <p>We are #redtree.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      <div class="container-fluid row text-right">
+        <div class="col-md-5 col-md-offset-6">
+          <h1>Making cool things happen</h1>
+          <p>We are #redtree.</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
       </div>
     </div>
 
